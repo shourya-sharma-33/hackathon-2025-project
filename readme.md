@@ -86,12 +86,20 @@ Twitter:
 GitHub:
 
   
+-------
+## File Structure
+
+**All Plans can be changed later as our discussion will proceed, its just a foundation that i am planning**
+
+
+1. `Readme.md` file contains thee plan, ideas and project structure
+2. Each folder for each part of project explained in its md file, like data analysis, frontend, UI design, Backend etc etc
 
 -------
 
   
 
-##  Project Structure (Piece by Piece)
+##  What we will do
 
   
 
@@ -347,3 +355,4 @@ Output: A live, accessible web app judges can test instantly.
   
 
 ---
+
