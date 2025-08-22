@@ -86,7 +86,6 @@ Twitter:
 GitHub:
 
   
--------
 ## File Structure
 
 **All Plans can be changed later as our discussion will proceed, its just a foundation that i am planning**
@@ -95,9 +94,6 @@ GitHub:
 1. `Readme.md` file contains thee plan, ideas and project structure
 2. Each folder for each part of project explained in its md file, like data analysis, frontend, UI design, Backend etc etc
 
--------
-
-  
 
 ##  What we will do
 
