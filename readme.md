@@ -2,6 +2,7 @@
   
 
 #  OneEarth International Hackathon 2025
+Website: http://oneearthhackathon.com
 
  
 ##  Official Hackathons Requirements
