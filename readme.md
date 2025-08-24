@@ -129,6 +129,9 @@ This is just a foundational structure.
 
 ---
 
+![Logo](./PlanFlowChart/pl.svg)
+
+
 ## Project Plan
 
 ### 1. Data Collection & Preparation
