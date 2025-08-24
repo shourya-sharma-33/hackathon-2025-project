@@ -129,7 +129,7 @@ This is just a foundational structure.
 
 ---
 
-![Logo](./PlanFlowChart/pl.svg)
+<img src="./PlanFlowChart/pl.svg" alt="Logo" style="width:100%; height:auto;" />
 
 
 ## Project Plan
