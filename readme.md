@@ -1,355 +1,309 @@
 
-  
+# OneEarth International Hackathon 2025
+**Website:** [http://oneearthhackathon.com](http://oneearthhackathon.com)
 
-#  OneEarth International Hackathon 2025
-Website: http://oneearthhackathon.com
+---
 
- 
-##  Official Hackathons Requirements
+## Official Hackathon Requirements
 
-  
+### Conditions and Process
 
-###  Themes & Challenges
+- Participate individually or in teams (maximum of 5 members).
+- No prior experience required.
 
-  
+---
 
-AI-Powered Waste Management System
-Predictive Analytics for Climate Change Impact
-Green Energy Optimization through Data Analytics
-AI-Driven Precision Agriculture for Sustainable Farming
-Smart Urban Planning with Big Data for Green Cities
-###  Conditions and Process
-
-Participate individually or in teams (max. 5 members).
-No prior experience required!
-
-  
-
-##  Event Process
-
-  
+### Event Process
 
 1. Register & Form Teams (Free Registration)
-2. Submit Your Idea via Google Form (https://forms.gle/wEi38tStCtVuoamZ8)
-3. Present to Experts & Compete for prizes
+2. Submit Your Idea via Google Form → [https://forms.gle/wEi38tStCtVuoamZ8](https://forms.gle/wEi38tStCtVuoamZ8)
+3. Present your idea to experts & compete for prizes
 4. Final Hackathon & Awards Ceremony
-  
 
-##  Key Dates
+---
 
-  
+### Key Dates
 
-Registration Opens: 01 August 2025
-Submission Deadline: 30 September 2025
-48-Hour Hackathon & Awards: 24–25 October 2025
+- Registration Opens: **01 August 2025**
+- Submission Deadline: **30 September 2025**
+- 48-Hour Hackathon & Awards: **24–25 October 2025**
 
-  
+---
 
-##  Prizes & Opportunities
+### Prizes & Opportunities
 
-  
+- **1st Prize:** £1,000  
+- **2nd Prize:** £500  
+- **3rd Prize:** £250  
+- **Special Prize:** £100 in each thematic category  
+- **For Queries:** ai@oneearthhackathon.com
 
-1st Prize: £1,000
-2nd Prize: £500
-3rd Prize: £250
-£100 prize in each Thematic Category
-For Queries: ai@oneearthhackathon.com
+---
 
-  
+# Predictive Analytics for Climate Change Impact
 
--------
+## The Project
 
-##  The Project
+We have chosen **Predictive Analytics for Climate Change Impact** as our project.  
+This document will contain:
 
-This Doc will contain:
+1. Progress and advancements in our project.
+2. Explanation of all relevant tools, technologies, and concepts required.
+3. Project plan, architecture, and flowcharts.
+4. References to other documents and presentations (kept separate).
 
-1. The advancement in our project
-2. Explanation of all the relevant tools and concepts we need for our project
-3. The plan of this project flowchart all the info
-4. The actual docs and presentation are separate, here only just all the plans will be recorded
+---
 
-  
+## Contributors
 
-##  Contributors
+### Hitori
+- Twitter:  [hitorii (@panic_coder) / X](https://x.com/panic_coder)
+- GitHub: [hitoriiiiiiii](https://github.com/hitoriiiiiiii)
 
-  
+### Shourya Sharma
+- Twitter: [shouryasharma33](https://x.com/shouryasharma33)
+- GitHub: [shourya-sharma-33](https://github.com/shourya-sharma-33)
 
-###  Shourya Sharma
+### shivraj
+- Twitter:  [Shivaraj (@shivaraj215) / X](https://x.com/shivaraj215)
+- GitHub: [shivraj](https://github.com/Shivaraj-0001)
 
-Twitter: [shouryasharma33](https://x.com/shouryasharma33)
-GitHub: [shourya-sharma-33 (Shourya Sharma)](https://github.com/shourya-sharma-33)
+### yadnesh
+- Twitter:  [Yadnesh (@yadneshx17) / X](https://x.com/yadneshx17)
+- GitHub: [yadneshx17](https://github.com/yadneshx17)
 
-  
+### Billu
+- Twitter:  [Billu (@aka_billu) / X](https://x.com/aka_billu)
+- GitHub: [10xbillu (Gaurav )](https://github.com/10xbillu)
 
-###  Hitori
+---
+## Roles (changeable as per meeting)
 
-Twitter:
-GitHub:
+### Hitori :
+1. **Machine Learning Part** : will train and test the ML model on the dataset
+2. **Design** : Not sure but depends on what will be the future 
 
-  
+### Shourya Sharma :
+1. Will do the data analysis part
+2. Data explainablility chatbot using SHAP and LIME
+3. Real time data analysis, fetch data from api and then do it, something on this line
+
+### Shivaraj :
+1. Will build the presentation and the video editting part
+2. will do the frontend part
+
+### Billu :
+1. Backend and testing using Next.js
+
+## Work Flow (changeable as per meeting) 
+
+**Start by Data analysis and Model Training and collective planning with the process**
+
+we will begin with choosing the dataset, and we will parallely analyse (Shourya Sharma) and report (Shivaraj) and train the ML model (Hitori), all the analysis will be in this repo, shivaraj will take it and form a beautiful report and presentation
+
+**Plan, Design and Frontend** 
+
+we will plan what components will be where, like say the chat section on right and and  then real time analysis graph then ML prediction page, you guys know the drill
+
+**Backend and Final Work**
+then we will build the final and test it, connect the API to fetch data and train the ML model
+impliment the ML model
+use the built pipeline to analysis
+
+
+
+
+
 ## File Structure
 
-**All Plans can be changed later as our discussion will proceed, its just a foundation that i am planning**
+**Note:** All plans are flexible and subject to change as discussions progress.  
+This is just a foundational structure.
 
-
-1. `Readme.md` file contains thee plan, ideas and project structure
-2. Each folder for each part of project explained in its md file, like data analysis, frontend, UI design, Backend etc etc
-
-
-##  What we will do
-
-  
-
-###  1. Data Collection & Preparation 
-
-  
-
-Task: Collect historical and live climate/environment data.
-Sources :
-**AI Recommended Data**
--  [NASA Climate Data](https://data.giss.nasa.gov/gistemp/)
--  [Kaggle Climate Datasets](https://www.kaggle.com/datasets?search=climate+change)
--  [NASA POWER API](https://power.larc.nasa.gov/) → real-time global climate data.
--  [OpenWeatherMap API](https://openweathermap.org/api) → current + forecast weather
--  [NOAA Climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) → live + historical climate records.
- 
-
-What to do:
-
-- Load historical data using pandas.
-- Fetch live data via API calls (`requests` or `httpx`).
-- Clean missing values, normalize columns, align formats.
-- Merge static + live data if required.
-- Split into train/test sets for model training.
-  
-
-Output: A clean dataset + live data pipeline ready for ML.
-
-  
+1. **`README.md`** → Contains plans, ideas, and project structure.
+2. Each project module has its own dedicated folder:
+   - Data analysis
+   - Frontend
+   - UI/UX design
+   - Backend
+   - Documentation
 
 ---
 
-  
+## Project Plan
 
-###  2. Model Training (Core Brain)
+### 1. Data Collection & Preparation
 
-  
+**Task:** Collect historical and real-time climate/environmental data.
 
-Task: Train a predictive ML model.
+**Recommended Data Sources:**
+- [NASA Climate Data](https://data.giss.nasa.gov/gistemp/)
+- [Kaggle Climate Datasets](https://www.kaggle.com/datasets?search=climate+change)
+- [NASA POWER API](https://power.larc.nasa.gov/) → Global, real-time data.
+- [OpenWeatherMap API](https://openweathermap.org/api) → Current + forecasted weather.
+- [NOAA Climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) → Historical + live data.
 
-What to do:
-- Use Scikit-learn (start with Linear Regression / Random Forest).
-- Train model using historical dataset.
-- Evaluate using metrics like RMSE or MAE.
-- Save trained model as `.pkl` using `joblib` or `pickle`.
-  
+**Steps:**
+- Load historical datasets using **pandas**.
+- Fetch live data via APIs using `requests` or `httpx`.
+- Handle missing values, normalize columns, and ensure consistent formats.
+- Merge static and live datasets if required.
+- Split processed data into training and testing sets.
 
-Output: A trained ML model `.pkl` + evaluation report.
-
-  
-
----
-
-  
-
-###  3. Model Integration with Live Data
-
-  
-
-Task: Connect your trained model with live climate APIs.
-
-What to do:
-
-1. Create a data fetching function:
--- Call chosen API
--- Get real-time data in JSON.
--- Extract relevant features (temperature, rainfall, CO₂, etc.).
-
-2. Preprocess fetched data (scaling/encoding like training data).
-3. Pass it into your trained ML model.
-4. Return real-time prediction.
-
-  
-
-Output: Model predictions based on current climate conditions.
-
-  
+**Output:** A cleaned dataset + integrated live data pipeline ready for machine learning.
 
 ---
 
-  
+### 2. Model Training (Core Brain)
 
-###  4. Model Explainability (XAI Layer)
+**Task:** Train a predictive machine learning model.
 
-  
+**Steps:**
+- Use **Scikit-learn** (start with Linear Regression or Random Forest).
+- Train using the historical dataset.
+- Evaluate using metrics like **RMSE** or **MAE**.
+- Save the trained model as a `.pkl` file using `joblib` or `pickle`.
 
-Task: Show why the model predicts what it does.
-What to do:
-- Use SHAP or LIME for explainability.
-- Generate feature importance plots:
-- Example: CO₂ > rainfall > forest cover.
-- Visualize live + static feature impacts.
-  
-
-Output: Interactive charts showing factor contributions.
-
-  
+**Output:**  
+- Trained ML model (`.pkl` file).  
+- Evaluation report with performance metrics.
 
 ---
 
-  
+### 3. Model Integration with Live Data
 
-###  5. Data Visualization (Graphs, Maps, Live Updates)
+**Task:** Integrate the trained model with real-time climate APIs.
 
-  
+**Steps:**
+1. Create a **data fetching function**:
+   - Call the selected API.
+   - Get JSON response with real-time data.
+   - Extract required features (temperature, rainfall, CO₂ levels, etc.).
+2. Preprocess the fetched data (scale, normalize, encode as required).
+3. Pass processed inputs into the trained ML model.
+4. Return real-time predictions.
 
-Task: Create visuals for better insights.
-What to do:
-- Use matplotlib / plotly for historical trends (e.g., temperature vs year).
-- Use folium or plotly choropleth for geographical heatmaps.
-- Enable auto-refreshing live charts when new API data arrives.
-- Combine historical + predicted + live visuals in one dashboard.
-
-  
-
-Output: Graphs, maps, and charts with real-time updates.
-
-  
+**Output:**  
+Live predictions based on current climate conditions.
 
 ---
 
-  
+### 4. Model Explainability (XAI Layer)
 
-###  6. Scenario Simulator (“What If” Analysis)
+**Task:** Make the model explainable and transparent.
 
-  
+**Steps:**
+- Use libraries like **SHAP** or **LIME**.
+- Generate feature importance plots.
+- Example output: CO₂ > Rainfall > Forest Cover.
+- Visualize the contribution of live and static features.
 
-Task: Let users test scenarios like reducing CO₂ or increasing forest cover.
-
-What to do:
-
-- Accept user inputs:
-
-Example → “Reduce CO₂ by 15%” or “Increase green cover by 20%”.
-
-- Update dataset variables accordingly.
-- Re-run prediction pipeline.
-- Show new predicted outcome dynamically.
-
-  
-
-Output: An interactive simulator for policy and environmental planning.
-
-  
+**Output:**  
+Interactive charts showing which factors influenced each prediction.
 
 ---
 
-  
+### 5. Data Visualization (Graphs, Maps, Live Updates)
 
-###  7. Backend API (Model + Live Data Serving)
+**Task:** Create an interactive data visualization dashboard.
 
-  
+**Steps:**
+- Use **Matplotlib** or **Plotly** for historical trend graphs (e.g., temperature vs. years).
+- Use **Folium** or Plotly Choropleth for geographic heatmaps.
+- Enable **auto-refreshing live charts** when API data updates.
+- Combine historical, predicted, and real-time visuals in a single dashboard.
 
-Task: Serve the ML model + live API integration.
-
-What to do:
-
-- Use FastAPI (preferred) or Flask.
-
-- Create endpoint `/predict`:
-
-1. Accept user input (location, year, scenario).
-2. Fetch live API data.
-3. Pass processed data to the ML model.
-4. Return predictions + explainability metrics as JSON.
-
-  
-
-Output: A fully functional backend serving real-time climate predictions.
-
-  
+**Output:**  
+Real-time graphs, maps, and charts.
 
 ---
 
-  
+### 6. Scenario Simulator (“What If” Analysis)
 
-###  8. Frontend UI (Dashboard)
+**Task:** Allow users to test hypothetical climate change scenarios.
 
-  
+**Steps:**
+- Accept custom user inputs:
+  - Example: “Reduce CO₂ by 15%” or “Increase forest cover by 20%”.
+- Update dataset variables based on user input.
+- Re-run the prediction pipeline.
+- Display dynamically updated results.
 
-Task: Build a dashboard for visualization + interaction.
-
-Options:
-
-- Streamlit → faster, simpler, great for hackathons.
-- React + Chart.js/Plotly → advanced, more customizable.
-
-  
-
-What to do:
-
-- Add options to:
-- Select region/city.
-- Get live predictions.
-- View historical trends.
-- Visualize model explanations.
-- Run “what-if” simulations.
-- Display real-time graphs and live API-based results.
-
-  
-
-Output: A working interactive dashboard powered by ML + live data.
-
-  
+**Output:**  
+An interactive simulation tool for testing climate-related policy decisions.
 
 ---
 
-  
+### 7. Backend API (Model + Live Data Serving)
 
-###  9. Deployment (Make It Live)
+**Task:** Serve the ML model and live predictions via API.
 
-  
+**Technology Choice:**  
+- **FastAPI** (preferred) or **Flask**.
 
-Task: Deploy the full stack app online.
+**Steps:**
+- Create an endpoint: **`/predict`**
+  1. Accept inputs: location, year, and scenario adjustments.
+  2. Fetch relevant live API data.
+  3. Preprocess and pass inputs to the ML model.
+  4. Return predictions + feature contribution metrics as JSON.
 
-Options:
-
-- HuggingFace Spaces → best for Streamlit + ML.
-- Render / Railway / Heroku → for FastAPI + React setups.
-
-  
-
-What to do:
-
-- Deploy both frontend and backend.
-- Set up live API keys via environment variables.
-- Test real-time predictions online.
-
-  
-
-Output: A live, accessible web app judges can test instantly.
-
-  
+**Output:**  
+A functional backend serving real-time predictions.
 
 ---
 
-  
+### 8. Frontend UI (Dashboard)
 
-###  10. Live Prediction Flow (Final Judge Experience)
+**Task:** Build an intuitive, interactive dashboard.
 
-  
+**Technology Options:**
+- **Streamlit** → Quick, simple, ideal for hackathons.
+- **React + Chart.js/Plotly** → More customizable, production-ready.
 
+**Features to Include:**
+- Region/city selection.
+- Live prediction view.
+- Historical climate trends.
+- Model explainability visualization.
+- “What-if” simulations.
+- Real-time interactive graphs and API-based insights.
+
+**Output:**  
+A user-friendly dashboard powered by ML and live climate data.
+
+---
+
+### 9. Deployment (Make It Live)
+
+**Task:** Deploy the project for judges and participants.
+
+**Options:**
+- **HuggingFace Spaces** → Best for Streamlit + ML apps.
+- **Render**, **Railway**, or **Heroku** → Ideal for FastAPI + React setups.
+
+**Steps:**
+- Deploy frontend and backend separately (or together).
+- Configure environment variables for API keys securely.
+- Test live predictions before release.
+
+**Output:**  
+A fully functional, publicly accessible web app.
+
+---
+
+### 10. Live Prediction Flow (Final Judge Experience)
+
+**Steps:**
 1. Judge opens the dashboard.
-2. Selects a city/region.
-3. App calls OpenWeatherMap/NASA API → fetches latest conditions.
+2. Selects a region or city.
+3. Application fetches latest weather/climate data via OpenWeatherMap or NASA APIs.
 4. ML model predicts future climate impact instantly.
-5. Dashboard shows:
--- Prediction results.
--- Feature contribution charts.
--- Real-time updated graphs + maps.
--- “What if” simulation outcomes.
-
-  
+5. Dashboard displays:
+   - Prediction results.
+   - Feature contribution and importance charts.
+   - Updated graphs and maps.
+   - “What-if” simulation outcomes.
 
 ---
+
 
