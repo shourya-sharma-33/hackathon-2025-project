@@ -138,12 +138,51 @@ This is just a foundational structure.
 
 **Task:** Collect historical and real-time climate/environmental data.
 
-**Recommended Data Sources:**
-- [NASA Climate Data](https://data.giss.nasa.gov/gistemp/)
-- [Kaggle Climate Datasets](https://www.kaggle.com/datasets?search=climate+change)
+
+## 🌍 Climate Dataset Overview
+**Dataset for Data Analysis and Model Training**
+- [Dataset for Data Analysis and Model Training] https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/ACCESS-CM2/historical/r1i1p1f1/catalog.html
+
+- **Dataset Source**: NASA Earth Exchange (NEX) Climate Data via THREDDS Data Server.
+- **Why We Chose This Dataset**:  
+  - Reliable and high-quality data from NASA.  
+  - Covers multiple climate variables needed for predictive analysis.  
+  - Includes historical data + future projections based on climate models.
+- **What's Inside the Dataset**:  
+  - Multi-dimensional data containing **temperature, precipitation, humidity, wind speed**, etc.  
+  - Time-series data: daily values spanning multiple years.  
+  - Geo-spatial data: values mapped across different latitudes and longitudes.
+- **What We Plan to Do**:  
+  - Analyze **historical climate trends** using statistical and visual methods.  
+  - Build **predictive models** for future climate impact scenarios.  
+  - Extract region-specific data to focus on targeted analysis.
+- **Starter Notebook Added**:  
+  - Notebook includes steps to **load the dataset** directly into Google Colab.  
+  - Covers **dataset exploration**, listing variables, and `.head()` previews.  
+  - Provides a clean starting point for further **data cleaning, feature engineering, and modeling**.
+
+
+
+
+
+---
+
+## 🌐 Live Climate Data APIs (For Future Integration)
+
+I (**Shourya**) have also found a few potential APIs that we might be able to use for **real-time climate data fetching** and **live visualizations** in our project.  
+However, I **haven’t tested or verified** them yet, so we’ll discuss these options in our next team meeting before finalizing anything.
+
+Some API ideas (to be reviewed):
+
 - [NASA POWER API](https://power.larc.nasa.gov/) → Global, real-time data.
 - [OpenWeatherMap API](https://openweathermap.org/api) → Current + forecasted weather.
 - [NOAA Climate API](https://www.ncdc.noaa.gov/cdo-web/webservices/v2) → Historical + live data.
+
+We'll go through these options together and decide if we should integrate **real-time fetching** into our workflow.
+
+
+
+
 
 **Steps:**
 - Load historical datasets using **pandas**.
